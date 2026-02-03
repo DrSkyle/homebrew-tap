@@ -10,7 +10,7 @@ class Cloudslash < Formula
   on_macos do
     on_intel do
       url "https://github.com/DrSkyle/CloudSlash/releases/download/v2.2.6/cloudslash_Darwin_x86_64.tar.gz"
-      sha256 "82b3345478fa5018713ac51299febe7da9ea5efcdaf59b1d6e7a84672d85a2cd"
+      sha256 "436a78c4e26c10ccaba95ac865ba8017632c1b7dee64d6a18fd9583e2dd7ffce"
 
       def install
         bin.install "cloudslash"
@@ -18,7 +18,7 @@ class Cloudslash < Formula
     end
     on_arm do
       url "https://github.com/DrSkyle/CloudSlash/releases/download/v2.2.6/cloudslash_Darwin_arm64.tar.gz"
-      sha256 "825ecfb47744129b80ed0cb5d58d5ef52d8efcef8846166651cd79d6dd9322f1"
+      sha256 "345deafd4f06435694bcba0c7a008204edd65a3399021ea8e73f0f64f425273d"
 
       def install
         bin.install "cloudslash"
@@ -30,7 +30,7 @@ class Cloudslash < Formula
     on_intel do
       if Hardware::CPU.is_64_bit?
         url "https://github.com/DrSkyle/CloudSlash/releases/download/v2.2.6/cloudslash_Linux_x86_64.tar.gz"
-        sha256 "aebc2e501e99ed75848e07e45f4c6b3417d22014f48cc0fa84a9896bf4923fcf"
+        sha256 "2d8fdc777128c8eb9ff399886c7d7e7a5c8e0d71b6362be58168eb15b50a9abc"
 
         def install
           bin.install "cloudslash"
@@ -40,7 +40,7 @@ class Cloudslash < Formula
     on_arm do
       if Hardware::CPU.is_64_bit?
         url "https://github.com/DrSkyle/CloudSlash/releases/download/v2.2.6/cloudslash_Linux_arm64.tar.gz"
-        sha256 "d717cb50e4ce7aef78d73cdc143b636e77d6b5172207087296ad681451ed07ce"
+        sha256 "0c57dd19c69fd9fd2ba82a06318da776f9b40689f592e4a386349fde6c64aaf6"
 
         def install
           bin.install "cloudslash"
